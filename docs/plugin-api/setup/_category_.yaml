@@ -1,0 +1,5 @@
+label: "Setup"
+link:
+  type: generated-index
+  description: If on Windows, then using Visual Studio is recommended. On Linux, VS Code and CLion are recommended.
+position: 2

@@ -1,0 +1,33 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.featureContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureVideoContainer {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: auto;
+}
+
+.featureVideo {
+  border-radius: 0.4rem;
+  overflow: hidden;
+}

@@ -1,0 +1,88 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap');
+
+.heroBanner {
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(45deg, #00a47a, #006db0);
+}
+
+.heroContainer {
+  position: relative;
+}
+
+.heroImage {
+  position: absolute;
+  right: 0px;
+  height: 25rem;
+  margin-top: 3rem;
+}
+
+.heroTitle {
+  margin-top: 8rem;
+  margin-bottom: 0.5rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: white;
+}
+
+.heroSubtitle {
+  width: 50%;
+  color: rgba(255, 255, 255, 0.838);
+  line-height: 1.4em;
+  margin-bottom: 2.5rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 8rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .heroBanner {
+    text-align: center;
+  }
+
+  .heroTitle {
+    margin-top: 4rem;
+  }
+
+  .heroSubtitle {
+    width: 100%;
+  }
+
+  .buttons {
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+
+  .heroImage {
+    position: relative;
+    margin-block: auto;
+    width: 70%;
+    height: auto;
+  }
+}
