@@ -27,3 +27,11 @@ In this example the opacity property is set to 30%, with the selector ranges und
 Ranges in the selector operate in percent of the text. They can be set with the `Start` and `End` properties.
 
 The `Start` and `End` properties can be offset with the `Offset` property. This is useful when making text animations that go left→right/right→left with specific properties. The animation region can then be made smaller by lowering the `End` value.
+
+The range values can also be smoothed out with the `Easing` property.
+
+:::tip
+Use the "In" easings instead of the "Out" easings for text animators.
+:::
+
+<video class="small-video" loop controls muted src="/videos/docs/text-easing.webm"></video>
